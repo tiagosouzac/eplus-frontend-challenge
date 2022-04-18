@@ -4,3 +4,16 @@
   box-sizing: border-box;
   font-family: Montserrat, sans-serif;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+button {
+  cursor: pointer;
+}
