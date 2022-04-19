@@ -1,0 +1,7 @@
+.menuItem a {
+  transition: color 0.15s;
+}
+
+.menuItem a:hover {
+  color: #00bc0e;
+}

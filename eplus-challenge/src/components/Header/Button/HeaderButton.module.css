@@ -12,7 +12,7 @@
   display: none;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1100px) {
   .headerButton[id="search"],
   .headerButton[id="user"] {
     display: block;

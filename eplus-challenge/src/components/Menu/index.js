@@ -6,7 +6,7 @@ import MenuItem from "./Item";
 
 export default function Menu() {
   return (
-    <nav className={`${styles.mainMenu}`} style={{ display: "none" }}>
+    <nav className={`${styles.mainMenu}`}>
       <ul>
         <MenuItem>Lorem Ipsum</MenuItem>
         <MenuItem>Lorem Ipsum</MenuItem>
