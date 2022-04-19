@@ -3,5 +3,5 @@
 }
 
 .menuItem a:hover {
-  color: #00bc0e;
+  color: var(--primary-color);
 }
