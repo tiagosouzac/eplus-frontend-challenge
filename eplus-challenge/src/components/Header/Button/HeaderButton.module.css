@@ -1,0 +1,24 @@
+.headerButton {
+  border: none;
+  background-color: transparent;
+}
+
+.headerButton img {
+  width: 2rem;
+}
+
+.headerButton[id="search"],
+.headerButton[id="user"] {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .headerButton[id="search"],
+  .headerButton[id="user"] {
+    display: block;
+  }
+
+  .headerButton[id="menu"] {
+    display: none;
+  }
+}

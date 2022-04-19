@@ -1,8 +1,12 @@
+// Style
+import styles from "./Cart.module.css";
+
+// Components
 import CartItem from "./Item";
 
 export default function DropdownCart() {
   return (
-    <section>
+    <section className={`${styles.cart}`} style={{ display: "none" }}>
       <ul>
         <CartItem />
         <CartItem />

@@ -1,30 +1,28 @@
+// Styles
+import styles from "./Header.module.css";
+
 // Components
 import DropdownCart from "../Cart";
-import MenuButton from "./Menu/Button";
-import MenuItem from "./Menu/Item";
+import Menu from "../Menu";
+import HeaderButton from "./Button";
 
 export default function Header() {
   return (
-    <header>
+    <header className={styles.mainHeader}>
+      <HeaderButton icon="menu" />
+
       <img
         src="./images/logo/agencia-eplus-n-logo.png"
         alt="Agência E-Plus, especialista em Ecommerce e Marketing Digital"
+        className={styles.logo}
       />
 
-      <nav>
-        <ul>
-          <MenuItem>Lorem Ipsum</MenuItem>
-          <MenuItem>Lorem Ipsum</MenuItem>
-          <MenuItem>Lorem Ipsum</MenuItem>
-          <MenuItem>Lorem Ipsum</MenuItem>
-          <MenuItem>Lorem Ipsum</MenuItem>
-        </ul>
-      </nav>
+      <Menu />
 
-      <section>
-        <MenuButton icon="search" />
-        <MenuButton icon="user" />
-        <MenuButton icon="cart" />
+      <section className={styles.buttons}>
+        <HeaderButton icon="search" />
+        <HeaderButton icon="user" />
+        <HeaderButton icon="cart" />
       </section>
 
       <DropdownCart />
