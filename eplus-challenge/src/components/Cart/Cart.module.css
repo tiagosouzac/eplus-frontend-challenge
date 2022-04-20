@@ -1,10 +1,22 @@
 .cart {
   width: 100%;
-  background-color: #f0f0f0;
+  background-color: var(--secondary-bg-color);
   position: absolute;
   top: 5rem;
   right: 0;
   z-index: 10;
+}
+
+.cart::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 1rem solid transparent;
+  border-top: 0;
+  border-bottom: 1rem solid var(--secondary-bg-color);
+  position: absolute;
+  right: 1rem;
+  top: -1rem;
 }
 
 .cart ul {
@@ -20,9 +32,9 @@
 
 .cart > p {
   padding: 1rem;
-  background-color: #e6e6e6;
+  background-color: var(--tertiary-bg-color);
   text-align: center;
-  color: var(--secondary-text);
+  color: var(--secondary-text-color);
 }
 
 .cart button {
@@ -38,5 +50,11 @@
 @media screen and (min-width: 600px) {
   .cart {
     max-width: 20rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cart::before {
+    right: 2rem;
   }
 }

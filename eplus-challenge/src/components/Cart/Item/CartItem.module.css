@@ -9,7 +9,7 @@
 }
 
 .cartItem + .cartItem {
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid var(--tertiary-bg-color);
 }
 
 .cartItem img {
@@ -41,5 +41,5 @@
 .cartItem p[id="unavailable"] {
   font-size: 0.9rem;
   font-weight: 500;
-  color: rgb(221, 0, 0);
+  color: var(--danger-color);
 }

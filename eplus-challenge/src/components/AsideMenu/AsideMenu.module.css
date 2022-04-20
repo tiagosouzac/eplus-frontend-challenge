@@ -3,8 +3,8 @@
   max-width: 25rem;
   height: 100vh;
   padding: 1rem;
-  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
+  box-shadow: 4px 0px 4px var(--box-shadow-color);
+  background-color: var(--primary-bg-color);
   position: absolute;
   top: 0;
   left: 0;
@@ -21,12 +21,12 @@
 .asideMenu section input {
   width: 100%;
   padding: 0.5rem 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--border-color);
 }
 
 .asideMenu section button {
   padding: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--border-color);
   background-color: transparent;
   display: flex;
   justify-content: center;
