@@ -4,8 +4,7 @@ import styles from "./Menu.module.css";
 // Components
 import MenuItem from "./Item";
 
-export default function Menu({ className }) {
-  console.log(className);
+export default function Menu() {
   return (
     <nav className={styles.mainMenu}>
       <ul>
