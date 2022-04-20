@@ -13,7 +13,7 @@ Para isso, escolhi utilizar:
 - CSS
 - JavaScript
 
-Você pode conferir a solução desenvolvida no diretório ["e-plus challenge"](https://projects.invisionapp.com/share/NARHXUS6HCF#/357617423_Eplus) deste repositório.
+Você pode conferir a solução desenvolvida no diretório ["e-plus challenge"](https://github.com/tiagosouzac/eplus-frontend-challenge/tree/master/eplus-challenge) deste repositório.
 
 ## Como executar o projeto
 
@@ -41,7 +41,7 @@ yarn
 yarn dev
 ```
 
-O projeto estará disponível localmente para acesso em [localhost:3000](http://localhost:3000).
+O projeto estará disponível localmente para acesso em [localhost:3000](http://localhost:3000) (caso não esteja disponível, será aberto em outra porta do localhost).
 
 ## Sobre o desenvolvimento
 
@@ -74,8 +74,8 @@ Durante os momentos finais da codificação, refleti sobre alguns pontos que pod
 ## Resultado
 
 ![E-Plus Challenge - Resultado do desktop](https://github.com/tiagosouzac/eplus-frontend-challenge/blob/assets/E-Plus%20Challenge.jpg?raw=true)
-![E-Plus Challenge - Resultado do mobile](<https://github.com/tiagosouzac/eplus-frontend-challenge/blob/assets/E-Plus%20Challenge%20(Mobile).jpg?raw=true>)
-![E-Plus Challenge - Menu lateral](<https://github.com/tiagosouzac/eplus-frontend-challenge/blob/assets/E-Plus%20Challenge%20(Mobile%20menu).jpg?raw=true>)
+![E-Plus Challenge - Resultado do mobile](https://github.com/tiagosouzac/eplus-frontend-challenge/blob/assets/E-Plus%20Challenge%20(Mobile).jpg?raw=true)
+![E-Plus Challenge - Menu lateral](https://github.com/tiagosouzac/eplus-frontend-challenge/blob/assets/E-Plus%20Challenge%20(Mobile%20menu).jpg?raw=true)
 
 ## Algumas considerações:
 
