@@ -28,10 +28,13 @@ export default function DropdownCart() {
   return (
     <section className={`${styles.cart}`}>
       <ul>
-        {productsInCart &&
+        {productsInCart === null ? (
+          <p className={styles.emptyCart}>Seu carrinho está vazio.</p>
+        ) : (
           productsInCart.cart.item.map((productInfo) => (
             <CartItem productInfo={productInfo} key={productInfo.productId} />
-          ))}
+          ))
+        )}
       </ul>
 
       <p>

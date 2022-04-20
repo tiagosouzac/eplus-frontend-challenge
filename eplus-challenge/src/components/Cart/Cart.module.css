@@ -13,6 +13,11 @@
   overflow-y: scroll;
 }
 
+.emptyCart {
+  padding: 1rem;
+  text-align: center;
+}
+
 .cart > p {
   padding: 1rem;
   background-color: #e6e6e6;
