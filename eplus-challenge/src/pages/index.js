@@ -7,10 +7,6 @@ export default function Home() {
     <>
       <Head>
         <title>Desafio E-Plus</title>
-        <link
-          href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet"
-        />
       </Head>
 
       <Header />

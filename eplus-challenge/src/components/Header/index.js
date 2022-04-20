@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 // Styles
 import styles from "./Header.module.css";
 
@@ -7,6 +9,10 @@ import Menu from "../Menu";
 import HeaderButton from "./Button";
 
 export default function Header() {
+  const [cartVisibility, setCartVisibility] = useState(false);
+
+  const toggleCartVisibility = () => setCartVisibility(!cartVisibility);
+
   return (
     <header className={styles.mainHeader}>
       <HeaderButton icon="menu" />
@@ -22,10 +28,10 @@ export default function Header() {
       <section className={styles.buttons}>
         <HeaderButton icon="search" />
         <HeaderButton icon="user" />
-        <HeaderButton icon="cart" />
+        <HeaderButton icon="cart" onClick={() => toggleCartVisibility()} />
       </section>
 
-      <DropdownCart />
+      {cartVisibility && <DropdownCart />}
     </header>
   );
 }

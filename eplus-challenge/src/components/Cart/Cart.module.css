@@ -7,18 +7,6 @@
   z-index: 10;
 }
 
-.cart::before {
-  content: "";
-  width: 2rem;
-  height: 2rem;
-  background-color: #f0f0f0;
-  transform: rotate(45deg);
-  position: absolute;
-  top: -0.5rem;
-  right: 2rem;
-  pointer-events: none;
-}
-
 .cart ul {
   max-height: 20rem;
   padding-inline: 1rem;
