@@ -1,0 +1,56 @@
+.asideMenu {
+  width: 80%;
+  max-width: 25rem;
+  height: 100vh;
+  padding: 1rem;
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.asideMenu section {
+  width: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.asideMenu section input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.asideMenu section button {
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Navigation menu */
+.asideMenu nav {
+  display: block;
+}
+
+.asideMenu nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.asideMenu nav ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.asideMenu nav ul li::after {
+  content: url("../../../public/icons/chevron_right.svg");
+}

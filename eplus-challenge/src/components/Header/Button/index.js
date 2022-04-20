@@ -1,10 +1,10 @@
 // Styles
 import styles from "./HeaderButton.module.css";
 
-export default function HeaderButton({ icon, ...props }) {
+export default function HeaderButton({ icon, altText, ...props }) {
   return (
     <button id={icon} className={styles.headerButton} {...props}>
-      <img src={`./icons/${icon}.svg`} alt="Pesquisar no site" />
+      <img src={`./icons/${icon}.svg`} alt={altText} />
     </button>
   );
 }
