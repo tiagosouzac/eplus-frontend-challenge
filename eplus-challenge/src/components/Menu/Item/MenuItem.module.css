@@ -1,7 +1,0 @@
-.menuItem a {
-  transition: color 0.15s;
-}
-
-.menuItem a:hover {
-  color: var(--primary-color);
-}
