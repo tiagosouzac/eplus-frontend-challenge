@@ -37,3 +37,9 @@
   font-size: 0.9rem;
   color: var(--primary-color);
 }
+
+.cartItem p[id="unavailable"] {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(221, 0, 0);
+}

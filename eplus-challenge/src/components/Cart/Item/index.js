@@ -1,19 +1,21 @@
 // Styles
 import styles from "./CartItem.module.css";
 
-export default function CartItem() {
+export default function CartItem({ productInfo }) {
   return (
     <li className={styles.cartItem}>
-      <img
-        src="./images/products/impressora-canon-160-160.jpg"
-        alt="Impressora Canon"
-      />
+      <img src={productInfo.image} alt="Impressora Canon" />
 
-      <p id="item-name">
-        Impressora Canon canon canon canon canon canon sadsa dsa dad
-      </p>
-      <p id="quantity">Qtd: 1</p>
-      <p id="price">R$1000,00</p>
+      <p id="item-name">{productInfo.name}</p>
+
+      {productInfo.available ? (
+        <>
+          <p id="quantity">Qtd: {productInfo.quantity}</p>
+          <p id="price">{productInfo.bestPriceFormated}</p>
+        </>
+      ) : (
+        <p id="unavailable">Indisponível</p>
+      )}
     </li>
   );
 }
