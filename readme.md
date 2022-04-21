@@ -30,7 +30,7 @@ Em seguida, instale as dependências necessárias a execução (use o gerenciado
 **NPM:**
 
 ```
-npm init
+npm install
 npm run dev
 ```
 
